@@ -2,9 +2,9 @@
     "kind": "Template",
     "apiVersion": "v1",
     "metadata": {
-        "name": "drupal8-mysql-webdav",
+        "name": "drupal856-mysql-webdav",
         "annotations": {
-            "description": "Drupal 8 with persistent storage and MySQL as database. Data exchange using WebDAV.",
+            "description": "Drupal 8.56 with persistent storage and MySQL as database. Data exchange using WebDAV.",
             "iconClass": "icon-php",
             "tags": "instant-app,mysql,drupal8,webdav"
         }
@@ -389,7 +389,7 @@
             "name": "DRUPAL_MODULES",
             "description": "Comma separated Drupal modules to install.",
 	    "required": false,
-            "value": "ctools;pathauto;token;imce;honeypot;yamlform;mailsystem;smtp;paragraphs;entity;entity_reference_revisions;xmlsitemap;google_analytics;metatag;background_image_formatter;advagg;menu_block;redirect;rules;google_tag;fontyourface;hotjar;colorbox;bootstrap;adminimal_theme"
+            "value": "ctools;pathauto;token;imce;honeypot;yamlform;mailsystem;smtp;paragraphs;entity;entity_reference_revisions;xmlsitemap;google_analytics;metatag;background_image_formatter;advagg;menu_block;redirect;rules;google_tag;fontyourface;hotjar;colorbox;bootstrap;adminimal_theme;webform;"
         },
         {
             "name": "DRUPAL_THEMES",
