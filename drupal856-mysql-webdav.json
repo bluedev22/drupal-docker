@@ -73,13 +73,13 @@
             "kind": "Route",
             "apiVersion": "v1",
             "metadata": {
-                "name": "drupal",
+                "name": "drupal856",
                 "creationTimestamp": null
             },
             "spec": {
                 "to": {
                     "kind": "Service",
-                    "name": "${DRUPAL_SERVICE_NAME}-web"
+                    "name": "${DRUPAL_SERVICE_NAME}-website"
                 },
 		"port": {
 		    "targetPort": "web"
@@ -94,7 +94,7 @@
             "kind": "Route",
             "apiVersion": "v1",
             "metadata": {
-                "name": "drupal-dav",
+                "name": "drupal-dav1",
                 "creationTimestamp": null
             },
             "spec": {
@@ -232,7 +232,7 @@
             "kind": "DeploymentConfig",
             "apiVersion": "v1",
             "metadata": {
-                "name": "${DRUPAL_SERVICE_NAME}-db",
+                "name": "${DRUPAL_SERVICE_NAME}-dbdeploy",
                 "creationTimestamp": null
             },
             "spec": {
@@ -342,7 +342,7 @@
         {
             "name": "VOLUME_CAPACITY",
             "description": "Volume space available for data, e.g. 512Mi, 2Gi",
-            "value": "10Gi",
+            "value": "512Mi",
             "required": true
         },
         {
